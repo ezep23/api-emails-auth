@@ -3,9 +3,9 @@ const mongoose = require('mongoose')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const expressJwt = require('express-jwt')
-const User = require('./user')
+const User = require('./src/user')
  
-mongoose.connect('mongodb+srv://mmmongokiel:IRMGPo1mcPWgOYXw@cluster0.wauoefo.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('')
 
 const app = express()
 
